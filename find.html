@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="css/style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Find</title>
+</head>
+<body>
+    <div class="status-bar">
+        <div class="status-bar__column">
+            <span>KT</span>
+            <i class="fa-solid fa-wifi"></i>
+        </div>
+        <div class="status-bar__column">
+            <span>19:03</span>
+        </div>
+        <div class="status-bar__column">
+            <span>100%</span>
+            <i class="fa-solid fa-battery-full fa-lg"></i>
+            <i class="fa-solid fa-bolt"></i>
+        </div>
+    </div>
+
+
+    <header class="screen-header">
+        <h1 class="screen-header__title">Find</h1>
+        <div class="screen-header__icons">
+            <span><i class="fa-solid fa-magnifying-glass fa-lg"></i></span>
+            <span><a href="settings.html"><i class="fa-solid fa-gear fa-lg"></i></a></span>
+        </div>
+    </header>
+
+    <main class="main-screen">
+        <div class="icon-row">
+            <div class="icon-row__icon">
+                <a href="https://qr.naver.com/"><i class="fa-solid fa-qrcode"></i></a>
+                <span>QR Code</span>
+            </div>
+            <div class="icon-row__icon">
+                <i class="fa-solid fa-address-book"></i>
+                <span>Add by Contacts</span>
+            </div>
+            <div class="icon-row__icon">
+                <i class="fa-solid fa-fingerprint"></i>
+                <span>Add by ID</span>
+            </div>
+            <div class="icon-row__icon">
+                <i class="fa-solid fa-envelope"></i>
+                <span>Invite</span>
+            </div>
+        </div>
+        <div class="recommended-friends">
+            <h6 class="recommended-friends__title">recommended-friends</h6>
+            <span>You have no recommended friends.</span>
+        </div>
+        <div class="open-chat">
+            <div class="open-chat__header">
+                <h4 >Open Chat</h4>
+                <a href="https://cs.kakao.com/helps?service=8&category=105&locale=ko">
+                    <span>Go to Openchat Home<i class="fa-solid fa-chevron-right fa-xs"></i></span>
+                </a>
+            </div>
+        </div>
+        <div class="open-post">
+            <div class="open-post__column">
+                <h5 class="open-post__title">#BTS</h5>
+                <h6 class="open-post__hashtags">#bts#army#friends</h6>
+                <div class="open-post__members">
+                    <img src="https://w.namu.la/s/90373609be9b4e0e461d903d46a791ef7fee3a027298a47b20feb81474bceea3624cbbe36c32c199796a868515ecc8b1a1dbc707c4300c5822346ea5aaa250f870e20e9979b21e53da66dad1a4a7ad9c92c8e312578a3dafd0dae6bbd26105886d4d4fe427118f9c2c68ced957edef91" />
+                    <span class="open-post__member-count">802 members</span>
+                    <div class="divider"></div>
+                    <span class="open-post__member-status">Active</span>
+                </div>
+            </div>
+            <div class="open-post__column">
+               <div class="open-post__photo">
+                    <img src="https://search.pstatic.net/sunny/?src=https%3A%2F%2Fi.pinimg.com%2F736x%2F61%2F6d%2Fcb%2F616dcb2d61ebbf9e985a2dafc27eb8c0.jpg&type=sc960_832">
+                    <div class="open-post__heart-count">
+                        <i class="fa-solid fa-heart fa-xs"></i> <span>326</span>
+                    </div>
+               </div>
+            </div>
+        </div>
+        <div class="open-post">
+            <div class="open-post__column">
+                <h5 class="open-post__title">#aespa</h5>
+                <h6 class="open-post__hashtags">#aespa#My#friends</h6>
+                <div class="open-post__members">
+                    <img src="https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyMTExMDJfNDEg%2FMDAxNjM1ODM5MTYxMzE2.cyr8GfinkEhedOAAUqLqsBUNhjNbI6TAwXByPd6OLYQg.e9JGIpq9asb1_db6JirSx34a8whSKMyldaQEZ2Qhtoog.JPEG.yomyi00%2F20211102%25A3%25DF164458.jpg&type=sc960_832" />
+                    <span class="open-post__member-count">850 members</span>
+                    <div class="divider"></div>
+                    <span class="open-post__member-status">Active</span>
+                </div>
+            </div>
+            <div class="open-post__column">
+               <div class="open-post__photo">
+                    <img src="https://kin-phinf.pstatic.net/20220113_137/1642059379469gAP6K_JPEG/1642059378975.jpg?type=w750">
+                    <div class="open-post__heart-count">
+                        <i class="fa-solid fa-heart fa-xs"></i> <span>326</span>
+                    </div>
+               </div>
+            </div>
+        </div>
+    </main>
+
+    <nav class="nav">
+        <ul class="nav__list">
+            <li class="nav__btn">
+                <a class="nav__link" href="friends.html">
+                    <i class="fa-solid fa-user fa-2x"></i>
+                </a>
+            </li>
+            <li class="nav__btn">
+                <a class="nav__link" href="chats.html">
+                    <span class="nav__notification">1</span>
+                    <i class="fa-solid fa-comment fa-2x"></i>
+                </a>
+            </li>
+            <li class="nav__btn">
+                <a class="nav__link" href="find.html">
+                    <i class="fa-solid fa-magnifying-glass fa-2x"></i>
+                </a>
+            </li>
+            <li class="nav__btn">
+                <a class="nav__link" href="more.html">
+                    <i class="fa-solid fa-ellipsis fa-2x"></i>
+                </a>
+            </li>
+        </ul>
+    </nav>
+
+    <script src="https://kit.fontawesome.com/493cc16663.js" crossorigin="anonymous"></script>
+</body>
+</html>

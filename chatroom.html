@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="css/style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chatroom</title>
+</head>
+<body id="chat-screen">
+    <div class="status-bar">
+        <div class="status-bar__column">
+            <span>KT</span>
+            <i class="fa-solid fa-wifi"></i>
+        </div>
+        <div class="status-bar__column">
+            <span>19:33</span>
+        </div>
+        <div class="status-bar__column">
+            <span>100%</span>
+            <i class="fa-solid fa-battery-full fa-lg"></i>
+            <i class="fa-solid fa-bolt"></i>
+        </div>
+    </div>
+
+    <header class="alt-header">
+        <div class="alt-header__column">
+            <a href="chats-new.html">
+            <i class="fa-solid fa-angle-left fa-2x"></i>
+            </a>
+        </div>
+        <div class="alt-header__column">
+            <h1 class="alt-header__title">박정훈</h1>
+        </div>
+        <div class="alt-header__column">
+            <span><i class="fa-solid fa-magnifying-glass fa-lg"></i></span>
+            <span><i class="fa-solid fa-bars fa-lg"></i></span>
+        </div>
+    </header>
+
+    <main class="main-screen main-chat">
+        <div class="chat__timestamp">
+            Saturday, July 09, 2022
+        </div>
+
+        <div class="message-row">
+            <img src="https://w.namu.la/s/90373609be9b4e0e461d903d46a791ef7fee3a027298a47b20feb81474bceea3624cbbe36c32c199796a868515ecc8b1a1dbc707c4300c5822346ea5aaa250f870e20e9979b21e53da66dad1a4a7ad9c92c8e312578a3dafd0dae6bbd26105886d4d4fe427118f9c2c68ced957edef91">
+            <div class="message-row__content">
+                <span class="message__author">박정훈</span>
+                <div class="message__info">
+                    <span class="message__bubble">ㅎㅇ</span>
+                    <span class="message__time">16:34</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="message-row message-row--own">
+            <div class="message-row__content">
+                <div class="message__info">
+                    <span class="message__bubble">안녕</span>
+                    <span class="message__time">16:34</span>
+                </div>
+            </div>
+        </div>
+
+    </main>
+
+    <form class="reply">
+        <div class="reply__column">
+            <i class="fa-solid fa-plus fa-lg"></i>
+        </div>
+        <div class="reply__column">
+            <input type="text" placeholder="Write a message..." />
+            <i class="fa-solid fa-face-smile fa-lg"></i>
+            <button>
+                <i class="fa-solid fa-arrow-up"></i>
+            </button>
+        </div>
+    </form>
+
+    <script src="https://kit.fontawesome.com/493cc16663.js" crossorigin="anonymous"></script>
+</body>
+</html>
